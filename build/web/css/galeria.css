@@ -1,0 +1,33 @@
+#boton-galeria{
+  display:block;
+  margin: 10px 0 20px 0;
+}
+#galeria-animales{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+#galeria-animales li{
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  max-width: 250px;
+  background: #252b30;
+  border: 1px solid #121415;
+  padding: 5px 5px 0 5px;                
+}
+
+#galeria-animales span{                 
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 5px;                
+  font-size: 14px;
+  height: 30px;
+  left: 5px;
+  line-height: 30px;
+  position: absolute;
+  right: 5px;
+  text-indent: 10px;
+  top: auto;   
+  color:#FFFFFF; 
+}
